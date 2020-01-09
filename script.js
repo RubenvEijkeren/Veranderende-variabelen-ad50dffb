@@ -1,0 +1,6 @@
+const pi = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679;
+
+function calc(){
+	var omtrek = pi * 2 * document.querySelector("input").value;
+	document.querySelector("p").innerText = "De omtrek van de cirkel is " +	omtrek;
+}
